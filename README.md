@@ -1,15 +1,5 @@
 # Description
-This is the code for [Pedestrian Trajectory Prediction Using Dynamics-based Deep Learning](https://arxiv.org/abs/2309.09021), which has been accepted by ICRA2024.
-
-If you find this code useful then please cite:
-```bibtex
-@article{wang2023pedestrian,
-title={Pedestrian Trajectory Prediction Using Dynamics-based Deep Learning},
-author={Wang, Honghui and Zhi, Weiming and Batista, Gustavo and Chandra, Rohitash},
-journal={arXiv preprint arXiv:2309.09021},
-year={2023}
-}
-```
+This is the code for [Pedestrian Trajectory Prediction Using Dynamics-based Deep Learning](https://arxiv.org/abs/2309.09021)
 
 ### Environment
 The version of python is 3.8.16.
@@ -53,11 +43,6 @@ parser.add_argument('--test_set', default='eth', type=str,
                         help='Set this value to [eth, hotel, zara1, zara2, univ] for ETH-univ, ETH-hotel, UCY-zara01, UCY-zara02, UCY-univ')
 ```
 After you modify --test_set in code manually, you can simply click 'run' to train.
-
-
-
-### Acknowledgements
-This research includes computations using the computational cluster Katana (doi: https://doi.org/10.26190/669x-a286) supported by Research Technology Services at UNSW Sydney.
 
 
 ### Reference
