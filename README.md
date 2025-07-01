@@ -1,6 +1,3 @@
-# Description
-This is the code for [Pedestrian Trajectory Prediction Using Dynamics-based Deep Learning](https://arxiv.org/abs/2309.09021)
-
 ### Environment
 The version of python is 3.8.16.
 
@@ -13,8 +10,6 @@ pip install scipy==1.10.1
 pip install -U scikit-learn==1.2.2
 pip install numba==0.57.0
 ```
-
-
 ### Train
 The Default settings are to train on ETH-univ dataset. 
 
@@ -47,4 +42,3 @@ After you modify --test_set in code manually, you can simply click 'run' to trai
 
 ### Reference
 The code base heavily borrows from [STAR](https://github.com/Majiker/STAR), and goal estimator we use heavily borrows from [Heading](https://github.com/JoeHEZHAO/expert_traj). 
->>>>>>> 6d18130 (Initial commit)
